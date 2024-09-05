@@ -1,0 +1,128 @@
+section{
+    height: 705px;
+    background-color: #090E34;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    gap: 200px;
+    font-family: 'Inter', sans-serif;
+    .parent1{
+        position: relative;
+        p{
+            color: #8F96AB;
+        }
+        .paragraph{
+            margin-top: 17px;
+            p{
+                color: #8F96AB;
+            }
+            .p{
+                margin-top: -12px;
+                
+            }
+        }
+        .child{
+            height: 130px;
+            i{
+                margin-right: 15px;
+            }
+            margin-top: 63px;
+            display: flex;
+            align-items: center;
+            // gap: 60px;
+            .child1{
+                display: flex;
+                flex-direction: column;
+                svg{
+                    width: 31px;
+                    height: 15px;
+                }
+                .shvili1,.shvili2,.shvili3{
+                    display: flex;
+                    align-items: baseline;
+                    width: 160px;
+                    p{
+                        margin-top: -5px;
+                    }
+                }
+            }
+            .child2{
+                display: flex;
+                flex-direction: column;
+                margin-left: 55px;
+                .shvili4,.shvili5,.shvili6{
+                    display: flex;
+                    align-items: baseline;
+                    width: 160px;
+                }
+                svg{
+                    width: 31px;
+                    height: 15px;
+                }
+            }
+        }
+    }
+}
+.hr{
+    margin-top: -16px;
+    background-color: #090E34;
+    width: 100%;
+    height: 50px;
+    position: relative;
+    hr{
+        margin-left: 356px;
+        color: #8F96AB;
+        width: 1188px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    section{
+        // width: 500px;
+        width: 100%;
+        height: 1300px;
+        flex-direction: column;
+        gap: 0;
+        .parent1{
+            height: 430px;
+            top: -230px;
+            left: -30px;
+            h1{
+                font-size: 25px;
+                margin-left: 30px;
+            }
+            .paragraph{
+                margin-left: 30px;
+                p{
+                    font-size: 15px;
+                    width: 300px;
+                }
+            }
+            .child{
+                flex-direction: column;
+                height: 300px;   
+                margin-left: -165px;
+                .child1{
+                margin-left: 55px;
+                }
+                
+            }
+        }
+        .parent2{
+            img{
+                width: 440px;
+            }
+        }
+    }
+    .hr{
+        margin-top: -180px;
+        // width: 500px;
+        width: 100%;
+        hr{
+            width: 430px;
+            margin-left: 25px;
+        }
+    }
+}

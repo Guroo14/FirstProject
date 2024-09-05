@@ -1,0 +1,13 @@
+<aside>
+    <div class="card" *ngFor="let item of userInfoDetails let i = index"  style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title"> მეილი : {{item.email}}  </h5>
+        <br>
+        <br>
+        <p class="card-text">პაროლი : {{item.password}} </p>
+      
+      </div>
+
+      <button (click)="onRemoveBtn()">Remove</button>
+    </div>
+</aside> 

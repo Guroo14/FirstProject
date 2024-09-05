@@ -1,0 +1,55 @@
+section{
+    height: 834px;
+    position: relative;
+    background-color: #090E34;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    .help{
+        text-align: center;
+        position: absolute;
+        left: 633px;
+        top: 114px;
+        color: white;
+        p{
+            color: #8F96AB;
+        }
+    }
+    .video{
+        position: absolute;
+        left: 630px;
+        top: 340px;
+        z-index: 999;       
+        img{
+            width: 560px;
+        }
+    }
+   .img{
+     img{
+        position: absolute;
+        width: 100%;
+    }
+   }
+}
+
+@media screen and (max-width: 500px){
+    section{
+        // width: 500px;
+        width: 100%;
+        height: 650px;
+        .img{
+            position: relative;
+            top: 370px;
+        }
+        .help{
+            left: 0;
+            top: 65px;
+        }
+        .video{
+            left: 25px;
+            top: 290px;
+            img{
+                width: 430px;
+            }
+        }
+    }
+}

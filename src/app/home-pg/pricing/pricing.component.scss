@@ -1,0 +1,910 @@
+section{
+    height: 1071px;
+    background-color: #090E34;
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    .header{
+        position: absolute;
+        text-align: center;
+        left: 635px;
+        top: 110px;
+        h1{
+            color: white;
+        }
+        p{
+            color: #8F96AB;
+        }
+        .p{
+            color: #8F96AB;
+        }
+    }
+    .togglebtn{
+            display: flex;
+            position: relative;
+            align-items: center;
+            width: 300px;
+            left: 815px;
+            top: 300px;
+            gap: 14px;
+        .sp1{
+            color: black;
+        }
+        .sp2{
+            color: white;
+        }
+        .btn1{
+            background-color: #1D2144;
+            height: 25px;
+            width: 55px;
+            border-radius: 20px;
+            border: 0;
+            outline: 0;
+            cursor: pointer;
+            position: relative;
+            .spann1{
+                position: absolute;
+                display: block;
+                background-color: white;
+                height: 20px;
+                width: 20px;
+                border-radius: 50%;
+                top: 3px;
+                left: 5px;
+            }
+            .spann2{
+                position: absolute;
+                display: block;
+                background-color: white;
+                height: 20px;
+                width: 20px;
+                border-radius: 50%;
+                right: 5px;
+                top: 3px;
+                
+            }
+        }
+    }
+    .container{
+        width: 1368px;
+        height: 529px;
+        // position: relative;
+        // top: 390px;
+        margin-top: 390px;
+        display: flex;
+        gap: 27px;
+        .child1{
+            position: relative;
+            background-color: #1D2144;
+            border-radius: 10px;
+            width: 434px;
+            height: 529px;
+            .function-title{
+                position: absolute;
+                top: 20px;
+                display: flex;
+                width: 370px;
+                height: 44px;
+                align-items: baseline;
+                justify-content: space-around;
+                gap: 93px;
+                .years1{
+                    .spp1{
+                        font-size: 24px;
+                        color: white;
+                    }
+                    .spp2{
+                        font-size: 24px;
+                        color: #959CB1;
+                    }
+                }
+                .h4-2{
+                    color: white;
+                }
+            }
+            .child1-header1{
+                position: absolute;
+                top: 20px;
+                display: flex;
+                width: 370px;
+                height: 44px;
+                align-items: baseline;
+                justify-content: space-around;
+                gap: 90px;
+                .span1{
+                    .spp1{
+                        font-size: 24px;
+                        color: white;
+                    }
+                    .spp2{
+                        font-size: 24px;
+                        color: #959CB1;
+                    }
+                }
+                .h4-1{
+                    h4{
+                        color: white;
+                    }
+                }
+                
+            }
+            .text1{
+                position: absolute;
+                width: 370px;
+                height: 48px;
+                left: 30px;
+                top: 65px;
+                p{
+                    color: #8B92A8;
+                }
+            }
+            .btn1{
+                position: absolute;
+                width: 370px;
+                height: 48px;
+                top: 136px;
+                left: 30px;
+                button{
+                    padding: 0.75rem;
+                    line-height: 1.5rem;
+                    width: 100%;
+                    border-radius: 0.375rem;
+                    background-color: #415DD4;
+                    color: white;
+                    text-align: center;
+                    border: none;
+                }
+                button:hover{
+                    transition: 0.5s;
+                    background-color: rgb(49, 49, 240);
+                }
+            }
+            .hr1{
+                position: absolute;
+                top: 200px;
+                left: 30px;
+                width: 370px;
+                height: 40px;
+                hr{
+                    width: 100%;
+                    color: white;
+                }
+            }
+            .check-box1{
+                position: absolute;
+                height: 204px;
+                width: 370px;
+                display: flex;
+                flex-direction: column;
+                gap: 17px;
+                bottom: 60px;
+                left: 35px;
+                .check1{
+                    height: 18px;
+                    width: 370px;                                       
+                    display: flex;                   
+                    .logo1{                        
+                        position: relative;
+                        width: 18px;
+                        height: 18px;
+                        border-radius: 50%;
+                        background-color: #222956;
+                        text-align: center;
+                        i{
+                            position: absolute;
+                           color: #4563E3;
+                           font-size: 11px;
+                           left: 4px;
+                           top: 4px;
+                        }
+                    }
+                    .warwera1{
+                        position: absolute;
+                        left: 30px;
+                        top: -2px;
+                        p{
+                            color: #959CB1                           
+                        }
+                    }
+                }
+                .check2{                   
+                    height: 18px;
+                    width: 370px;                                      
+                    display: flex;                   
+                    .logo2{                        
+                        position: relative;
+                        width: 18px;
+                        height: 18px;
+                        border-radius: 50%;
+                        background-color: #222956;
+                        text-align: center;
+                        i{
+                            position: absolute;
+                           color: #4563E3;
+                           font-size: 11px;
+                           left: 4px;
+                           top: 4px;
+                        }
+                    }
+                    .warwera2{
+                        position: absolute;
+                        left: 30px;                        
+                        p{
+                            color: #959CB1                           
+                        }
+                    }
+                }
+                .check3{                   
+                    height: 18px;
+                    width: 370px;
+                    display: flex;                   
+                    .logo3{                        
+                        position: relative;
+                        width: 18px;
+                        height: 18px;
+                        border-radius: 50%;
+                        background-color: #222956;
+                        text-align: center;
+                        i{
+                            position: absolute;
+                           color: #4563E3;
+                           font-size: 11px;
+                           left: 4px;
+                           top: 4px;
+                        }
+                    }
+                    .warwera3{
+                        position: absolute;
+                        left: 30px;                       
+                        p{
+                            color: #959CB1                           
+                        }
+                    }
+                }
+                .check4{                   
+                    height: 18px;
+                    width: 370px;             
+                    display: flex;                   
+                    .logo4{                        
+                        position: relative;
+                        width: 18px;
+                        height: 18px;
+                        border-radius: 50%;
+                        background-color: #222956;
+                        text-align: center;
+                        i{
+                            position: absolute;
+                           color: #4563E3;
+                           font-size: 11px;
+                           left: 4px;
+                           top: 4px;
+                        }
+                    }
+                    .warwera4{
+                        position: absolute;
+                        left: 30px;
+                        p{
+                            color: #959CB1                           
+                        }
+                    }
+                }
+                .check5{                   
+                    height: 18px;
+                    width: 370px;  
+                    display: flex;                   
+                    .logo5{                        
+                        position: relative;
+                        width: 18px;
+                        height: 18px;
+                        border-radius: 50%;
+                        background-color: #222956;
+                        text-align: center;
+                        i{
+                            position: absolute;
+                           color: #4563E3;
+                           font-size: 10px;
+                           left: 5px;
+                           top: 4px;
+                        }
+                    }
+                    .warwera5{
+                        position: absolute;                      
+                        left: 30px;
+                        p{
+                            color: #959CB1                           
+                        }
+                    }
+                }
+                .check6{                   
+                    height: 18px;
+                    width: 370px;  
+                    display: flex;                   
+                    .logo6{                        
+                        position: relative;
+                        width: 18px;
+                        height: 18px;
+                        border-radius: 50%;
+                        background-color: #222956;
+                        text-align: center;
+                        i{
+                            position: absolute;
+                           color: #4563E3;
+                           font-size: 10px;
+                           left: 5px;
+                           top: 4px;
+                        }
+                    }
+                    .warwera6{
+                        position: absolute;
+                        left: 30px;
+                        p{
+                            color: #959CB1                           
+                        }
+                    }
+                }
+            }
+        }
+        .child2{
+            position: relative;
+            background-color: #1D2144;
+            border-radius: 10px;
+            width: 434px;
+            height: 529px;
+            .function-title{
+                position: absolute;
+                top: 20px;
+                display: flex;
+                width: 370px;
+                height: 44px;
+                align-items: baseline;
+                justify-content: space-around;
+                gap: 105px;
+                .years1{
+                    .spp1{
+                        font-size: 24px;
+                        color: white;
+                    }
+                    .spp2{
+                        font-size: 24px;
+                        color: #959CB1;
+                    }
+                }
+                .h4-2{
+                    color: white;
+                }
+            }
+            .child1-header1{
+                position: absolute;
+                top: 20px;
+                display: flex;
+                width: 370px;
+                height: 44px;
+                align-items: baseline;
+                justify-content: space-around;
+                gap: 90px;
+                .span1{
+                    .spp1{
+                        font-size: 24px;
+                        color: white;
+                    }
+                    .spp2{
+                        font-size: 24px;
+                        color: #959CB1;
+                    }
+                }
+                .h4-1{
+                    h4{
+                        color: white;
+                    }
+                }
+                
+            }
+            .text1{
+                position: absolute;
+                width: 370px;
+                height: 48px;
+                left: 30px;
+                top: 65px;
+                p{
+                    color: #8B92A8;
+                }
+            }
+            .btn1{
+                position: absolute;
+                width: 370px;
+                height: 48px;
+                top: 136px;
+                left: 30px;
+                button{
+                    padding: 0.75rem;
+                    line-height: 1.5rem;
+                    width: 100%;
+                    border-radius: 0.375rem;
+                    background-color: #415DD4;
+                    color: white;
+                    text-align: center;
+                    border: none;
+                }
+                button:hover{
+                    transition: 0.5s;
+                    background-color: rgb(49, 49, 240);
+                }
+            }
+            .hr1{
+                position: absolute;
+                top: 200px;
+                left: 30px;
+                width: 370px;
+                height: 40px;
+                hr{
+                    width: 100%;
+                    color: white;
+                }
+            }
+            .check-box1{
+                position: absolute;
+                height: 204px;
+                width: 370px;
+                display: flex;
+                flex-direction: column;
+                gap: 17px;
+                bottom: 60px;
+                left: 35px;
+                .check1{
+                    height: 18px;
+                    width: 370px;                                       
+                    display: flex;                   
+                    .logo1{                        
+                        position: relative;
+                        width: 18px;
+                        height: 18px;
+                        border-radius: 50%;
+                        background-color: #222956;
+                        text-align: center;
+                        i{
+                            position: absolute;
+                           color: #4563E3;
+                           font-size: 11px;
+                           left: 4px;
+                           top: 4px;
+                        }
+                    }
+                    .warwera1{
+                        position: absolute;
+                        left: 30px;
+                        top: -2px;
+                        p{
+                            color: #959CB1                           
+                        }
+                    }
+                }
+                .check2{                   
+                    height: 18px;
+                    width: 370px;                                      
+                    display: flex;                   
+                    .logo2{                        
+                        position: relative;
+                        width: 18px;
+                        height: 18px;
+                        border-radius: 50%;
+                        background-color: #222956;
+                        text-align: center;
+                        i{
+                            position: absolute;
+                           color: #4563E3;
+                           font-size: 11px;
+                           left: 4px;
+                           top: 4px;
+                        }
+                    }
+                    .warwera2{
+                        position: absolute;
+                        left: 30px;                        
+                        p{
+                            color: #959CB1                           
+                        }
+                    }
+                }
+                .check3{                   
+                    height: 18px;
+                    width: 370px;
+                    display: flex;                   
+                    .logo3{                        
+                        position: relative;
+                        width: 18px;
+                        height: 18px;
+                        border-radius: 50%;
+                        background-color: #222956;
+                        text-align: center;
+                        i{
+                            position: absolute;
+                           color: #4563E3;
+                           font-size: 11px;
+                           left: 4px;
+                           top: 4px;
+                        }
+                    }
+                    .warwera3{
+                        position: absolute;
+                        left: 30px;                       
+                        p{
+                            color: #959CB1                           
+                        }
+                    }
+                }
+                .check4{                   
+                    height: 18px;
+                    width: 370px;             
+                    display: flex;                   
+                    .logo4{                        
+                        position: relative;
+                        width: 18px;
+                        height: 18px;
+                        border-radius: 50%;
+                        background-color: #222956;
+                        text-align: center;
+                        i{
+                            position: absolute;
+                           color: #4563E3;
+                           font-size: 11px;
+                           left: 4px;
+                           top: 4px;
+                        }
+                    }
+                    .warwera4{
+                        position: absolute;
+                        left: 30px;
+                        p{
+                            color: #959CB1                           
+                        }
+                    }
+                }
+                .check5{                   
+                    height: 18px;
+                    width: 370px;  
+                    display: flex;                   
+                    .logo5{                        
+                        position: relative;
+                        width: 18px;
+                        height: 18px;
+                        border-radius: 50%;
+                        background-color: #222956;
+                        text-align: center;
+                        i{
+                            position: absolute;
+                           color: #4563E3;
+                           font-size: 11px;
+                           left: 4px;
+                           top: 4px;
+                        }
+                    }
+                    .warwera5{
+                        position: absolute;                      
+                        left: 30px;
+                        p{
+                            color: #959CB1                           
+                        }
+                    }
+                }
+                .check6{                   
+                    height: 18px;
+                    width: 370px;  
+                    display: flex;                   
+                    .logo6{                        
+                        position: relative;
+                        width: 18px;
+                        height: 18px;
+                        border-radius: 50%;
+                        background-color: #222956;
+                        text-align: center;
+                        i{
+                            position: absolute;
+                           color: #4563E3;
+                           font-size: 10px;
+                           left: 5px;
+                           top: 4px;
+                        }
+                    }
+                    .warwera6{
+                        position: absolute;
+                        left: 30px;
+                        p{
+                            color: #959CB1                           
+                        }
+                    }
+                }
+            }
+        }
+        .child3{
+            position: relative;
+            background-color: #1D2144;
+            border-radius: 10px;
+            width: 434px;
+            height: 529px;                  
+            .function-title{
+                position: absolute;
+                top: 20px;
+                display: flex;
+                width: 370px;
+                height: 44px;
+                align-items: baseline;
+                justify-content: space-around;
+                gap: 102px;
+                .years1{
+                    .spp1{
+                        font-size: 24px;
+                        color: white;
+                    }
+                    .spp2{
+                        font-size: 24px;
+                        color: #959CB1;
+                    }
+                }
+                .h4-2{
+                    color: white;
+                }
+            }                    
+            .child1-header1{
+                position: absolute;
+                top: 20px;
+                display: flex;
+                width: 370px;
+                height: 44px;
+                align-items: baseline;
+                justify-content: space-around;
+                gap: 90px;
+                .span1{
+                    .spp1{
+                        font-size: 24px;
+                        color: white;
+                    }
+                    .spp2{
+                        font-size: 24px;
+                        color: #959CB1;
+                    }
+                }
+                .h4-1{
+                    h4{
+                        color: white;
+                    }
+                }
+                
+            }
+            .text1{
+                position: absolute;
+                width: 370px;
+                height: 48px;
+                left: 30px;
+                top: 65px;
+                p{
+                    color: #8B92A8;
+                }
+            }
+            .btn1{
+                position: absolute;
+                width: 370px;
+                height: 48px;
+                top: 136px;
+                left: 30px;
+                button{
+                    padding: 0.75rem;
+                    line-height: 1.5rem;
+                    width: 100%;
+                    border-radius: 0.375rem;
+                    background-color: #415DD4;
+                    color: white;
+                    text-align: center;
+                    border: none;
+                }
+                button:hover{
+                    transition: 0.5s;
+                    background-color: rgb(49, 49, 240);
+                }
+            }
+            .hr1{
+                position: absolute;
+                top: 200px;
+                left: 30px;
+                width: 370px;
+                height: 40px;
+                hr{
+                    width: 100%;
+                    color: white;
+                }
+            }
+            .check-box1{
+                position: absolute;
+                height: 204px;
+                width: 370px;
+                display: flex;
+                flex-direction: column;
+                gap: 17px;
+                bottom: 60px;
+                left: 35px;
+                .check1{
+                    height: 18px;
+                    width: 370px;                                       
+                    display: flex;                   
+                    .logo1{                        
+                        position: relative;
+                        width: 18px;
+                        height: 18px;
+                        border-radius: 50%;
+                        background-color: #222956;
+                        text-align: center;
+                        i{
+                            position: absolute;
+                           color: #4563E3;
+                           font-size: 11px;
+                           left: 4px;
+                           top: 4px;
+                        }
+                    }
+                    .warwera1{
+                        position: absolute;
+                        left: 30px;
+                        top: -2px;
+                        p{
+                            color: #959CB1                           
+                        }
+                    }
+                }
+                .check2{                   
+                    height: 18px;
+                    width: 370px;                                      
+                    display: flex;                   
+                    .logo2{                        
+                        position: relative;
+                        width: 18px;
+                        height: 18px;
+                        border-radius: 50%;
+                        background-color: #222956;
+                        text-align: center;
+                        i{
+                            position: absolute;
+                           color: #4563E3;
+                           font-size: 11px;
+                           left: 4px;
+                           top: 4px;
+                        }
+                    }
+                    .warwera2{
+                        position: absolute;
+                        left: 30px;                        
+                        p{
+                            color: #959CB1                           
+                        }
+                    }
+                }
+                .check3{                   
+                    height: 18px;
+                    width: 370px;
+                    display: flex;                   
+                    .logo3{                        
+                        position: relative;
+                        width: 18px;
+                        height: 18px;
+                        border-radius: 50%;
+                        background-color: #222956;
+                        text-align: center;
+                        i{
+                            position: absolute;
+                           color: #4563E3;
+                           font-size: 11px;
+                           left: 4px;
+                           top: 4px;
+                        }
+                    }
+                    .warwera3{
+                        position: absolute;
+                        left: 30px;                       
+                        p{
+                            color: #959CB1                           
+                        }
+                    }
+                }
+                .check4{                   
+                    height: 18px;
+                    width: 370px;             
+                    display: flex;                   
+                    .logo4{                        
+                        position: relative;
+                        width: 18px;
+                        height: 18px;
+                        border-radius: 50%;
+                        background-color: #222956;
+                        text-align: center;
+                        i{
+                            position: absolute;
+                           color: #4563E3;
+                           font-size: 11px;
+                           left: 4px;
+                           top: 4px;
+                        }
+                    }
+                    .warwera4{
+                        position: absolute;
+                        left: 30px;
+                        p{
+                            color: #959CB1                           
+                        }
+                    }
+                }
+                .check5{                   
+                    height: 18px;
+                    width: 370px;  
+                    display: flex;                   
+                    .logo5{                        
+                        position: relative;
+                        width: 18px;
+                        height: 18px;
+                        border-radius: 50%;
+                        background-color: #222956;
+                        text-align: center;
+                        i{
+                            position: absolute;
+                           color: #4563E3;
+                           font-size: 11px;
+                           left: 4px;
+                           top: 4px;
+                        }
+                    }
+                    .warwera5{
+                        position: absolute;                      
+                        left: 30px;
+                        p{
+                            color: #959CB1                           
+                        }
+                    }
+                }
+                .check6{                   
+                    height: 18px;
+                    width: 370px;  
+                    display: flex;                   
+                    .logo6{                        
+                        position: relative;
+                        width: 18px;
+                        height: 18px;
+                        border-radius: 50%;
+                        background-color: #222956;
+                        text-align: center;
+                        i{
+                            position: absolute;
+                           color: #4563E3;
+                           font-size: 11px;
+                           left: 4px;
+                           top: 4px;
+                        }
+                    }
+                    .warwera6{
+                        position: absolute;
+                        left: 30px;
+                        p{
+                            color: #959CB1                           
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 500px){
+    section{
+        // width: 500px;
+        width: 100%;
+        height: 2130px;
+        .header{
+            left: 0;
+        }
+        .togglebtn{
+            left: 140px;
+        }
+        .container{
+            flex-direction: column;
+            width: 483px;
+            height: 1660px;
+            margin-left: 13px;
+        }
+    }
+}

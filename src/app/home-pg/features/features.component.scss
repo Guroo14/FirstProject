@@ -1,0 +1,93 @@
+section{
+    height: 920px;
+    background-color: #0B113A;
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    .MainFeatures{
+        text-align: center;
+        color: white;
+        position: absolute;
+        left: 645px;
+        top: 87px;
+        h1{
+            font-size: 45px;
+        }
+        p{
+            margin-top: 25px;
+            font-size: 18px;
+            
+        }
+        .p1{
+            margin-top: -10px;
+            font-size: 18px;
+        }
+    }
+    .features1{
+        display: flex;
+        position: absolute;
+        left: 270px;
+        top: 300px;
+        gap: 50px;
+        svg{
+            height: 70px;
+            
+            path{
+                color: #0B113A;
+            }
+        }
+        h1{
+            font-size: 24px;
+            color: white;
+        }
+        p{
+            color: #959CB1;
+        }
+    }
+    .features2{
+        display: flex;
+        position: absolute;
+        left: 270px;
+        top: 600px;
+        gap: 50px;
+        svg{
+            height: 70px;
+        }
+        h1{
+            color: white;
+            font-size: 24px;
+        }
+        p{
+            color: #959CB1;
+        }
+    }
+    
+}
+
+@media screen and (max-width: 500px){
+    section{
+        height: 2000px;
+        // width: 500px;
+        width: 100%;
+        .MainFeatures{
+            left: 38px;
+            h1{
+                font-size: 30px;
+            }
+            p{
+                font-size: 13px;
+            }
+            .p1{ 
+                font-size: 13px;
+            }
+        }
+        .features1{
+            flex-direction: column;
+            left: 40px;
+        }
+        .features2{
+            flex-direction: column;
+            left: 40px;
+            top: 1100px;
+        }
+    }
+}

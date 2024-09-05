@@ -1,0 +1,257 @@
+<section>
+    <div class="header">
+        <h1>Simple and Affordable Pricing</h1>
+        <p>There are many variations of passages of Lorem Ipsum available but the</p>
+        <p class="p">majority have suffered alteration in some form.</p>
+    </div>
+    <div class="togglebtn">
+        <span [ngStyle]="{color:color}" >Monthly</span>
+        <button (click)="onToggleBtn()"
+        class="btn1">
+        <span *ngIf="isShow" class="spann1"></span> <span  *ngIf="isHiden" class="spann2"></span>
+        </button>
+        <span [ngStyle]="{color:color1}"  >Yearly</span>
+      </div>
+
+    
+    <div class="container">
+        <div class="child1">
+            <div *ngIf="showPrices" class="function-title">
+                <div  class="years1">
+                    <span class="spp1">$120</span>
+                    <span class="spp2">/yr</span>
+                </div>
+                <div class="h4-2">
+                    <h4>Lite</h4>
+                </div>
+            </div>
+            
+            <div *ngIf="hidePrices" class="child1-header1">    
+                <div class="span1">
+                    <span class="spp1">$40</span>
+                <span class="spp2">/mo</span>
+                </div>       
+                <div class="h4-1">
+                    <h4>Lite</h4>
+                </div>
+            </div>
+            <div class="text1">
+                <p>Lorem ipsum dolor sit amet adiscing elit Mauris <br> egestas enim.</p>
+            </div>
+            <div class="btn1">
+                <button>Start Free Trial</button>
+            </div>
+            <div class="hr1">
+                <hr>
+            </div>
+            <div class="check-box1">
+                <div  class="check1">
+                    <div  class="logo1">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <div  class="warwera1">
+                        <p>All UI Components</p>
+                    </div>
+                </div>
+                <div  class="check2">
+                    <div  class="logo2">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <div  class="warwera2">
+                        <p>Use with Unlimited Projects</p>
+                    </div>
+                </div>
+                <div  class="check3">
+                    <div  class="logo3">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <div  class="warwera3">
+                        <p>Commercial Use</p>
+                    </div>
+                </div>
+                <div  class="check4">
+                    <div  class="logo4">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <div  class="warwera4">
+                        <p>Email Support</p>
+                    </div>
+                </div>
+                <div  class="check5">
+                    <div  class="logo5">
+                        <i class="fa-solid fa-x"></i>
+                    </div>
+                    <div  class="warwera5">
+                        <p>Lifetime Access</p>
+                    </div>
+                </div>
+                <div  class="check6">
+                    <div  class="logo6">
+                        <i class="fa-solid fa-x"></i>
+                    </div>
+                    <div  class="warwera6">
+                        <p>Free Lifetime Updates</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="child2">
+            <div  *ngIf="showPrices" class="function-title">
+                <div  class="years1">
+                    <span class="spp1">$789</span>
+                    <span class="spp2">/yr</span>
+                </div>
+                <div class="h4-2">
+                    <h4>Basic</h4>
+                </div>
+            </div>
+            <div *ngIf="hidePrices" class="child1-header1">
+                <div class="span1">
+                    <span class="spp1">$399</span>
+                <span class="spp2">/mo</span>
+                </div>       
+                <div class="h4-1">
+                    <h4>Basic</h4>
+                </div>
+            </div>
+            <div class="text1">
+                <p>Lorem ipsum dolor sit amet adiscing elit Mauris <br> egestas enim.</p>
+            </div>
+            <div class="btn1">
+                <button>Start Free Trial</button>
+            </div>
+            <div class="hr1">
+                <hr>
+            </div>
+            <div class="check-box1">
+                <div  class="check1">
+                    <div  class="logo1">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <div  class="warwera1">
+                        <p>All UI Components</p>
+                    </div>
+                </div>
+                <div  class="check2">
+                    <div  class="logo2">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <div  class="warwera2">
+                        <p>Use with Unlimited Projects</p>
+                    </div>
+                </div>
+                <div  class="check3">
+                    <div  class="logo3">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <div  class="warwera3">
+                        <p>Commercial Use</p>
+                    </div>
+                </div>
+                <div  class="check4">
+                    <div  class="logo4">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <div  class="warwera4">
+                        <p>Email Support</p>
+                    </div>
+                </div>
+                <div  class="check5">
+                    <div  class="logo5">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <div  class="warwera5">
+                        <p>Lifetime Access</p>
+                    </div>
+                </div>
+                <div  class="check6">
+                    <div  class="logo6">
+                        <i class="fa-solid fa-x"></i>
+                    </div>
+                    <div  class="warwera6">
+                        <p>Free Lifetime Updates</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="child3">
+            <div  *ngIf="showPrices" class="function-title">
+                <div  class="years1">
+                    <span class="spp1">$999</span>
+                    <span class="spp2">/yr</span>
+                </div>
+                <div class="h4-2">
+                    <h4>Plus</h4>
+                </div>
+            </div>
+            <div *ngIf="hidePrices" class="child1-header1">
+                <div  class="span1">
+                    <span class="spp1">$589</span>
+                <span class="spp2">/mo</span>
+                </div>       
+                <div class="h4-1">
+                    <h4>Plus</h4>
+                </div>
+            </div>
+            <div class="text1">
+                <p>Lorem ipsum dolor sit amet adiscing elit Mauris <br> egestas enim.</p>
+            </div>
+            <div class="btn1">
+                <button>Start Free Trial</button>
+            </div>
+            <div class="hr1">
+                <hr>
+            </div>
+            <div class="check-box1">
+                <div  class="check1">
+                    <div  class="logo1">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <div  class="warwera1">
+                        <p>All UI Components</p>
+                    </div>
+                </div>
+                <div  class="check2">
+                    <div  class="logo2">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <div  class="warwera2">
+                        <p>Use with Unlimited Projects</p>
+                    </div>
+                </div>
+                <div  class="check3">
+                    <div  class="logo3">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <div  class="warwera3">
+                        <p>Commercial Use</p>
+                    </div>
+                </div>
+                <div  class="check4">
+                    <div  class="logo4">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <div  class="warwera4">
+                        <p>Email Support</p>
+                    </div>
+                </div>
+                <div  class="check5">
+                    <div  class="logo5">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <div  class="warwera5">
+                        <p>Lifetime Access</p>
+                    </div>
+                </div>
+                <div  class="check6">
+                    <div  class="logo6">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <div  class="warwera6">
+                        <p>Free Lifetime Updates</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

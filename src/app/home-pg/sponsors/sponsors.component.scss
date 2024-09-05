@@ -1,0 +1,52 @@
+section{
+    height: 254px;
+    width: 100%;
+    background-color: #090E34;
+    position: relative;
+    align-items: center;
+    
+    
+    .container{
+        background-color: #0D133E;
+        height: 190px;
+        width: 1800px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        
+        .child-img{
+            display: flex;
+            align-items: center;
+            height: 500px;
+            gap: 80px;
+            .sponsor1,.sponsor2,.sponsor3,.sponsor4{
+                width: 150px;
+                height: 45px;      
+            }
+            .sponsor5{
+                width: 120px;
+                height: 45px;
+            }
+        }
+        
+        
+        
+    }
+}
+
+@media screen and (max-width: 500px){
+    section{
+        // width: 500px;
+        width: 100%;
+        height: 800px;
+        .container{ 
+            width: 483px;
+            height: 700px;
+            justify-content: center;
+            .child-img{
+                flex-direction: column;
+                
+            }
+        }
+    }
+}

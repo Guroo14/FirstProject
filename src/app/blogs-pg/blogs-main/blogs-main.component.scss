@@ -1,0 +1,138 @@
+section{
+    height: 790px;
+    background-color: #090E34;
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    .container{
+        height: 525px;
+        width: 1600px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 100px;
+        gap: 20px;
+        left: -47px;
+        .child1, .child2, .child3{
+            background-color: #1D2144;
+            width: 434px;
+            height: 525px;
+            border-radius: 8px;
+            position: relative;
+           
+            .portfolio-img{
+                width: 100%;
+                height: 210px;
+                border-radius: 8px;
+            }
+            .chd-header{
+                position: absolute;
+                left: 45px;
+                top: 236px;
+                h3{
+                    font-size: 23px;
+                    color: white;
+                }
+                h3:hover{
+                    transition: 0.5s;
+                    color: #4A6CF7;
+                }
+            }
+            .chd-text{
+                position: absolute;
+                top: 325px;
+                left: 50px;
+                p{
+                    color: #616682;
+                }
+            }
+            .chd-profile-parent{
+                display: flex;
+                position: absolute;
+                justify-content: center;
+                gap: 40px;
+                left: 45px;
+                width: 230px;
+                bottom: 25px;
+                .chd-profile{
+                    display: flex;
+                    bottom: 50px;
+                    gap: 14px;
+                    border-radius: 2px;
+                    .txt{
+                        h5{
+                            color: white;
+                            font-size: 13px;
+                        }
+                        p{
+                            color: #869795;
+                            font-size: 10px;
+                        }
+                    }
+                }
+                .txt1{
+                    h5{
+                        color: white;
+                        font-size: 13px;
+                    }
+                    p{
+                        color: #869795;
+                        font-size: 10px;
+                    }
+                }
+            }
+            
+            .horiz-xazi{
+                position: absolute;
+                left: 223px;
+                bottom: 42px;
+                width: 1.6px;
+                height: 35px;
+                background-color: #343857;
+            }
+            .chd-hr{
+                position: absolute;
+                bottom: 90px;
+                left: 45px;
+                hr{
+                    color: white;
+                    width: 330px;
+                }
+            }
+            .top-btn{
+                position: absolute;
+                right: 20px;
+                top: 20px;
+                button{
+                    border: none;
+                    padding: 5px 10px;
+                    border-radius: 15px;
+                    background-color: #4A6CF7;
+                    color: white;
+                }
+            }
+        }
+        
+    }
+}
+
+
+@media screen and (max-width: 500px){
+    section{
+        height: 1820px;
+        width: 501px;
+        .header{
+            left: 50px;
+            p{
+                width: 373px;
+            }
+        }
+        .container{
+            height: 1650px;
+            width: 483px;
+            flex-direction: column;
+            margin-left: 83px;
+        }
+    }
+}

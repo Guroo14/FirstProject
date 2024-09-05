@@ -1,0 +1,59 @@
+<nav class="nav1">
+    <div routerLink="/" class="logo">
+        <img [src]="logoImg" alt="">
+       </div>
+       <div class="navbar">
+        <ul>
+            <li routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" routerLink="/" >Home</li>
+            <li routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" routerLink="/About" >About</li>
+            <li routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" routerLink="/Blogs">Blog</li>
+            <li routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" routerLink="/Support">Support</li>
+        </ul>
+        <div class="sign-in">
+            <button routerLink="/Sign-in">Sign-in</button>
+        </div>
+       </div>
+       
+</nav>
+
+
+<div  class="container">
+    <div  class="hamburger" >
+        <div routerLink="/" class="logo">
+            <img [src]="logoImg" alt="">
+           </div>
+           <div (click)="hamburgerMenu()" class="toggle" [class.menu-open]="check">
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+            <div class="line line3"></div>
+           </div>
+    </div>
+    
+    
+        <nav *ngIf="hide"  class="nav2">
+        <div  class="navbar">
+         <ul>
+             <li (click)="hideFunction()"  routerLink="/" >Home</li>
+             <li (click)="hideFunction()"  routerLink="/About" >About</li>
+             <li (click)="hideFunction()" routerLink="/Blogs">Blog</li>
+             <li (click)="hideFunction()" routerLink="/Support">Support</li>
+         </ul>
+        </div>
+        
+    </nav>
+    
+    
+
+</div>
+<router-outlet></router-outlet>
+
+
+
+
+
+
+
+
+
+
+
